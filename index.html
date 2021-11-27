@@ -10,8 +10,8 @@
 
 <body>
 
-    <!-- <script src="./PubSub.js"></script> -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/pubsub-js/1.9.3/pubsub.min.js"></script>
+    <script src="./PubSub.js"></script>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/pubsub-js/1.9.3/pubsub.min.js"></script> -->
     <script>
         /* 
         PubSub的语法:
@@ -33,8 +33,8 @@
         })
 
         // PubSub.unsubscribe()
-        // PubSub.unsubscribe(token)
-        // PubSub.unsubscribe('add')
+        // PubSub.unsubscribe('uid_1')
+        PubSub.unsubscribe('add')
 
         // PubSub.publish('add', 'atguigu')
         PubSub.publishSync('add', 'atguigu')
